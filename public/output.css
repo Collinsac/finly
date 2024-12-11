@@ -1323,10 +1323,6 @@ html {
   position: fixed;
 }
 
-.m-2 {
-  margin: 0.5rem;
-}
-
 .m-4 {
   margin: 1rem;
 }
@@ -1340,6 +1336,14 @@ html {
   margin-bottom: 0.75rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.ml-56 {
+  margin-left: 14rem;
+}
+
 .ml-auto {
   margin-left: auto;
 }
@@ -1350,14 +1354,6 @@ html {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.ml-56 {
-  margin-left: 14rem;
 }
 
 .block {
@@ -1384,16 +1380,16 @@ html {
   min-height: 100vh;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-32 {
   width: 8rem;
 }
 
 .w-56 {
   width: 14rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-\[400px\] {
@@ -1476,6 +1472,11 @@ html {
   border-radius: 0.5rem;
 }
 
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+}
+
 .bg-green-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(34 197 94 / var(--tw-bg-opacity, 1));
@@ -1491,9 +1492,8 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+.p-10 {
+  padding: 2.5rem;
 }
 
 .p-3 {
@@ -1506,10 +1506,6 @@ html {
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
 }
 
 .px-6 {
@@ -1527,12 +1523,12 @@ html {
   padding-bottom: 1rem;
 }
 
-.pr-4 {
-  padding-right: 1rem;
-}
-
 .pr-2 {
   padding-right: 0.5rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
 }
 
 .text-2xl {
@@ -1540,13 +1536,14 @@ html {
   line-height: 2rem;
 }
 
-.text-\[44px\] {
-  font-size: 44px;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-5xl {
@@ -1554,14 +1551,13 @@ html {
   line-height: 1;
 }
 
+.text-\[44px\] {
+  font-size: 44px;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .font-medium {
@@ -1573,19 +1569,14 @@ html {
   color: rgb(16 185 129 / var(--tw-text-opacity, 1));
 }
 
-.text-emerald-800 {
+.text-gray-800 {
   --tw-text-opacity: 1;
-  color: rgb(6 95 70 / var(--tw-text-opacity, 1));
+  color: rgb(31 41 55 / var(--tw-text-opacity, 1));
 }
 
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-gray-800 {
-  --tw-text-opacity: 1;
-  color: rgb(31 41 55 / var(--tw-text-opacity, 1));
 }
 
 .opacity-70 {
