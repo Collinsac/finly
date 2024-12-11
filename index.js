@@ -30,16 +30,14 @@ app.use(flash());
 // ==========================================================
 mongoose
   .connect(DB_URL)
-  .then(() =>
-    app.listen(PORT, () =>
-      console.log(`App started on port http://localhost:${PORT}`)
-    )
-  )
+  .then(() => console.log("db connected"))
   .catch((error) => console.log(error.message));
 
+app.listen(PORT, () =>
+  console.log(`App started on port http://localhost:${PORT}`)
+);
 // ==========================================================
 app.use("/users", userRouter);
 app.use("/dashboard", dashboardRouter);
 
-
-app.get('/', (req,res)=>res.send("welcome"))
+app.get("/", (req, res) => res.send("welcome"));
