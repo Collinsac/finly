@@ -40,3 +40,6 @@ mongoose
 // ==========================================================
 app.use("/users", userRouter);
 app.use("/dashboard", dashboardRouter);
+
+
+app.get('/', (req,res)=>res.send("welcome"))
